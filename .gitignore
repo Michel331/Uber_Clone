@@ -1,0 +1,31 @@
+# 🐍 Environnements virtuels
+.venv/
+env/
+venv/
+
+# 🔐 Fichiers sensibles
+.env
+.env_api
+*.env
+
+# 🗃️ Bases de données locales
+*.sqlite3
+
+# 🧠 Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 🧪 Fichiers de logs ou temporaires
+*.log
+.DS_Store
+
+# ⚙️ Fichiers d'éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📦 Fichiers statiques ou générés
+staticfiles/
+media/

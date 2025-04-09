@@ -10,11 +10,17 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
-from pathlib import Path
-from syslog import LOG_INFO
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
+import os
+from pathlib import Path
+from dotenv import load_dotenv  # Make sure python-dotenv is installed
+
+# 2. Define BASE_DIR
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+# 3. Now load environment variables AFTER BASE_DIR is defined
+load_dotenv(f"{BASE_DIR}/.env_api")
+
 
 
 # Quick-start development settings - unsuitable for production
@@ -147,4 +153,8 @@ DJOSER = {
         'user': 'account.serializers.UserSerializer',
     }
 }
+
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+OPENWEATHER_API_KEY = os.getenv("OPENWEATHER_API_KEY")
+
 

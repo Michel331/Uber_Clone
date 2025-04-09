@@ -3,8 +3,8 @@
     "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQzMjk5NDMyLCJpYXQiOjE3NDMyOTkxMzIsImp0aSI6ImJlYmVhMjU4MzlkYjQ5ZTc5YTdkZjA5Y2I0Yzc1NTJmIiwidXNlcl9pZCI6NH0.9UKiwN8QEqUNa3nrueE11VZiceVvrgBL8FQiAuE-OLA"
 }
 
-{'departure_address':'23 rue dean',
-'arrival_address':'34 rue desf'}
+{"departure_address":"23 rue dean",
+"arrival_address":"34 rue desf"}
 
 
 {
